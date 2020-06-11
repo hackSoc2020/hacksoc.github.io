@@ -8,14 +8,40 @@
     <meta name="keywords" content="Hackathon,Society,HKU,HackSoc,HackFest,Siddharth,Agarwal,">
     <meta name="author" content="Siddharth Agarwal">
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="icon" href="./img/favicon.png" type="image/png">
+    <link rel="icon" href="./img/favicon.jpg" type="image/png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <title>&lt;HackSoc/&gt;</title>
+    <style>
+        #loader {
+            /* border: 12px solid #f3f3f3;
+            border-radius: 50%;
+            border-top: 12px solid #444444;
+            width: 70px;
+            height: 70px; */
+            animation: spin 4s linear infinite;
+        }
+
+        @keyframes spin {
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
+        .center {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+        }
+    </style>
 </head>
 
 <body>
+    <img src="./img/favicon.png" id='loader' class="center" alt="">
     <div class="main">
         <!--Home Starts-->
         <div id='home' class='container'>
@@ -49,7 +75,7 @@
             <h2 id="typed"><span class="type"></span></h2>
             <div class="social">
                 <a href="#" class="fa fa-facebook"></a>
-                <a href="#" class="fa fa-linkedin"></a>
+                <a href="https://www.linkedin.com/company/43262265/" class="fa fa-linkedin"></a>
                 <a href="#" class="fa fa-instagram"></a>
             </div>
             <div class=""></div>
@@ -179,10 +205,10 @@
         <!--End Contact-->
         <!--Start Footer-->
         <div class="container" id="footer">
-            <img src="./img/logo_black.png" style="height:10vh;margin:0;">
+            <img src="./img/favicon.png" style="height:10vh;margin-top:2rem;">
             <div class="social">
-                <a href="#" class="fa fa-facebook"></a>
-                <a href="#" class="fa fa-linkedin"></a>
+                <a href="$" class="fa fa-facebook"></a>
+                <a href="https://www.linkedin.com/company/43262265/" class="fa fa-linkedin"></a>
                 <a href="#" class="fa fa-instagram"></a>
             </div>
             <p>All rights reserved | Developed by <a href="https://sidagarwal.netlify.app" target="_blank">Siddharth
