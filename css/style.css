@@ -943,15 +943,15 @@ pre tt:after {
   backface-visibility: hidden;
 }
 #team .member .middle {
+  background-color: rgba(0, 0, 0, 0.1);
   height: 100%;
-  width: 90%;
+  width: 100%;
   color: #ffffff;
   transition: 0.5s ease;
   opacity: 1;
   position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
+  left: 0;
+  bottom: 0;
   text-align: center;
   display: flex;
   flex-direction: column;
