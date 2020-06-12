@@ -75,4 +75,13 @@ document.onreadystatechange = function () {
         document.querySelector("#loader").style.display = "none";
         document.querySelector("body").style.visibility = "visible";
     }
-}; 
+};
+
+function myFunction() {
+    var x = document.getElementById("nav");
+    if (x.className === "nav") {
+        x.className += " responsive";
+    } else {
+        x.className = "nav";
+    }
+}
