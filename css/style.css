@@ -876,7 +876,7 @@ pre tt:after {
   overflow-wrap: break-word;
 }
 #team .member .memberImage {
-  object-fit: fill;
+  object-fit: contain;
   height: 100%;
   width: 100%;
   z-index: -1;
