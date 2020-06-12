@@ -48,8 +48,9 @@ function onScroll(event) {
     var $nav = $('#header');
     $('.nav a').each(function () {
         var currLink = $(this);
-        var refElement = $(currLink.attr("href"));
-        if (refElement.position().top / 1.2 <= scrollPos && refElement.position().top + (refElement.height()) > scrollPos) {
+        try { var refElement = $(currLink.attr("href")); } catch (e) { }
+
+        if (refElement && refElement.position().top / 1.2 <= scrollPos && refElement.position().top + (refElement.height()) > scrollPos) {
             $('.nav ul li').removeClass("active");
             currLink.parent().addClass("active");
         }
