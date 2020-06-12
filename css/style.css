@@ -771,13 +771,13 @@ pre tt:after {
   justify-content: space-evenly;
   max-height: 100vh;
   overflow: hidden;
-  padding: 1rem;
+  padding: 0rem;
   align-items: center;
   width: 100%;
   z-index: 999999;
 }
 #home #header .title-image {
-  height: 10vh;
+  height: 8vh;
 }
 #home #header .title-image img {
   height: 100%;
